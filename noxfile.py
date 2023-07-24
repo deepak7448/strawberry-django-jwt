@@ -5,7 +5,7 @@ from textwrap import dedent
 import nox
 from nox_poetry import Session, session
 
-package = "strawberry_django_jwt"
+package = "strawberry_django_jwt_sync"
 python_versions = ["3.10", "3.9", "3.8"]  # + ["3.7"] # Disable for now, strawberry-django does not support 3.7 since it uses TypedDict in settings
 django_versions = ["4.1", "3.2"]
 invalid_sessions = [
