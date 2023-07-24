@@ -11,7 +11,7 @@ from django.middleware.csrf import rotate_token
 from django.utils.translation import gettext as _
 import strawberry
 from strawberry.types import Info
-from strawberry_django.utils import is_async
+# from strawberry_django.utils import is_async
 
 from strawberry_django_jwt import exceptions, signals
 from strawberry_django_jwt.auth import authenticate
